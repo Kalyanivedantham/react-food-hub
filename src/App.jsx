@@ -14,7 +14,7 @@ import { logout } from './Store';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faCarrot, faDrumstickBite, faIceCream,
  faShoppingBag, faShoppingCart, faInfoCircle, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import './app.css';
+import './App.css';
 import Footer from './Footer';
 
 

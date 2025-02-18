@@ -79,9 +79,7 @@ const ContactUs = () => {
           </button>
         </form>
       </div>
-      <div className="contact-image">
-        <img src="contact.jpeg" alt="Contact Us" />
-      </div>
+      
     </section>
   );
 };

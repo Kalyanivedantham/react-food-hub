@@ -39,7 +39,7 @@ function Aboutus() {
         <ul className="list">
           <li><strong>Ratan</strong> - Founder & CEO</li>
           <li><strong>Swetha Naidu</strong> - Head of Content</li>
-          <li><strong>Kalyani Vedantham</strong> - Lead Developer</li>ssss
+          <li><strong>Kalyani Vedantham</strong> - Lead Developer</li>
         </ul>
       </section>
 

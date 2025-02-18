@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import './Orders.css';  
 
 
 function Orders() {
@@ -6,6 +7,7 @@ function Orders() {
 
     const orderItems = orders.map((item, index) => (
         <li key={index} className="order-item">
+           
             <strong>{item.name}</strong> {item.price} <br />
             Date of order: {item.date} <br />
             Total Amount of your orders: {item.totalAmount} <br />

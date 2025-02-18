@@ -20,7 +20,7 @@ function Footer() {
                         <li><a href="/home">Home</a></li>
                         <li><a href="/cart">Cart</a></li>
                         <li><a href="/aboutus">About Us</a></li>
-                        <li><a href="/contactus">Contact</a></li>
+                        <li><a href="/contactus">Contact Us</a></li>
                     </ul>
                 </div>
 

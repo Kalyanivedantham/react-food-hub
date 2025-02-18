@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "./Store";
 import { useState } from "react";
-import './Veg.css'; 
+import './veg.css'; 
 
 function Veg() {
     let dispatch = useDispatch();

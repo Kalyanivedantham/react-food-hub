@@ -68,6 +68,11 @@ function Home() {
             <h3>Grains & Pulses</h3>
             <p>Healthy grains, pulses, and lentils for a balanced diet.</p>
           </div>
+          <div className="category-card">
+          <img src="https://i.ytimg.com/vi/pGb7cXVJARE/maxresdefault.jpg" alt="Chocolates" />
+           <h3>Chocolates</h3>
+           <p>Delicious chocolates to satisfy your sweet cravings.</p>
+         </div>
         </div>
       </section>
 
@@ -116,6 +121,10 @@ function Home() {
             <div className="food-item">
               <img src="https://th.bing.com/th/id/OIP.mUQ3a14ZE7_A1V7kpwyHawHaEK?w=315&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Vegetables" />
               <h3>Dry fruits</h3>
+            </div>
+            <div className="food-item">
+              <img src="https://d161wrq7muokn7.cloudfront.net/images/product/500.500/Dairy-Milk-Silk-Combo.jpg" />
+              <h3>Chocolates</h3>
             </div>
           </marquee>
         </div>

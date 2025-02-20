@@ -102,7 +102,7 @@ function Home() {
               <h3>Grains</h3>
             </div>
             <div className="food-item">
-              <img src="https://thumbs.dreamstime.com/b/glasses-fresh-organic-detox-juices-garden-57458265.jpg" alt="Juices" />
+              <img src="https://th.bing.com/th/id/OIP.Zuvt_deT0BMVGkdi5Im-CgHaE8?rs=1&pid=ImgDetMain" alt="Juices" />
               <h3>Juices</h3>
             </div>
             <div className="food-item">
@@ -121,45 +121,46 @@ function Home() {
         </div>
       </section>
  {/*special offers*/}
+ <h1>Special Offers</h1>
       <section className="special-offers">
       <div className="special-offer">
-    
+      
     <div className="offer-card">
       <img src="https://th.bing.com/th/id/OIP.BETGxVUMOGtF4IZIG1oAaQHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Offer 1" />
       <h3>Exclusive Veg Discount</h3>
       <p>Get 20% off on all vegetable products.</p>
-      <button className="show-now-btn">Show Now</button>
+      
     </div>
     <div className="offer-card">
       <img src="https://th.bing.com/th/id/OIP.3EuYpE9asXnEFHvUaBHCrgHaKd?w=900&h=1272&rs=1&pid=ImgDetMain" alt="Offer 2" />
       <h3>Non-Veg Feast</h3>
       <p>Buy 2, Get 1 free on non-veg products.</p>
-      <button className="show-now-btn">Show Now</button>
+     
     </div>
     <div className="offer-card">
       <img src="https://cdn.wowdeals.me/uploads/catalogues/issues/52/37697/cover/551x752/1661432730.jpg" alt="Offer 3" />
       <h3>Sweet Treat</h3>
       <p>Special discount on all sweet items.</p>
-      <button className="show-now-btn">Show Now</button>
+     
     </div>
    
     <div className="offer-card">
       <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/green-modern-fruits-sale-instagram-post-design-template-9efceb2135b171eb5f18704a35547933_screen.jpg?ts=1719180059" alt="Offer 4" />
       <h3>Fresh Fruits Deal</h3>
       <p>Get 15% off on seasonal fruits.</p>
-      <button className="show-now-btn">Show Now</button>
+   
     </div>
     <div className="offer-card">
       <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fresh-fruit-juice-food-menu-restaurant-flyer-design-template-30bf1db8a8889731bf62eeb5352a3862_screen.jpg?ts=1658773044" alt="Offer 5" />
       <h3>Juice Boost</h3>
       <p>Buy any 2 juices, get 1 free!</p>
-      <button className="show-now-btn">Show Now</button>
+      
     </div>
     <div className="offer-card">
       <img src="https://th.bing.com/th/id/OIP.g7j_HtoAfwlRCZOcyFB_aAAAAA?pid=ImgDet&w=178&h=315&c=7&dpr=1.5" alt="Offer 6" />
       <h3>Bakery Extravaganza</h3>
       <p>Special discounts on freshly baked goods.</p>
-      <button className="show-now-btn">Show Now</button>
+   
     </div>
   </div>
 </section> 

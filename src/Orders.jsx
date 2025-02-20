@@ -1,21 +1,25 @@
 import { useSelector } from "react-redux";
 import './Orders.css';  
 
-
 function Orders() {
     const orders = useSelector(state => state.purchasedetails);
 
     const orderItems = orders.map((item, index) => (
         <li key={index} className="order-item">
-           
-            <strong>{item.name}</strong> {item.price} <br />
+            <strong>{item.name}</strong>  {item.price} <br />
             Date of order: {item.date} <br />
             Total Amount of your orders: {item.totalAmount} <br />
             
             <ul className="order-products">
                 {item.items.map((product, productIndex) => (
                     <li key={productIndex} className="order-product">
-                        <strong>{product.name}</strong> - ${product.price} x {product.quantity}
+                        <img 
+                            src={product.image} 
+                            alt={product.name} 
+                            className="product-image"
+                            onError={(e) => e.target.src = 'https://via.placeholder.com/50'} 
+                        />
+                        <strong>{product.name}</strong>  ₹{product.price} x {product.quantity}
                     </li>
                 ))}
             </ul>
